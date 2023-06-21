@@ -2,9 +2,9 @@
 jQuery(document).ready(function($) {
   var alterClass = function() {
     var ww = document.body.clientWidth;
-    if (ww < 1206) {
+    if (ww > 1206) {
       $('#header-saka').removeClass('saka-mega-nav--mobile');
-    } else if (ww >= 1207) {
+    } else if (ww <= 1207) {
       $('#header-saka').addClass('saka-mega-nav--mobile');
     };
   };
