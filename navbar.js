@@ -13,5 +13,7 @@ jQuery(document).ready(function($) {
   $(window).resize(function(){
     alterClass();
   });
+	alterClass();
+});
   
 function clickremovediv() {document.getElementById('saka-mega-nav-navigation-2').click()}
